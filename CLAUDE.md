@@ -6,7 +6,7 @@ This project uses a multi-agent workflow via custom slash commands. Configuratio
 
 ### Router Commands (start here)
 - `/docs` — Routes documentation tasks to the right specialist (docs-writer or agent-architect)
-- `/code` — Routes coding tasks by complexity (junior / senior / architect)
+- `/code-router` — Routes coding tasks by complexity (junior / senior / architect)
 
 ### Direct Specialist Commands
 - `/docs-writer` — Write end-user documentation (READMEs, guides) [haiku-optimized]
