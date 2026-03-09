@@ -47,32 +47,7 @@ Files/Areas likely affected:
 
 ---
 
-## Step 3: Model Selection
-
-After presenting the plan, ask the user:
-
-```
-🧠 Which model should handle this task?
-
-  [1] claude-haiku-4-5      — Fast & lightweight. Best for simple, well-scoped tasks (JUNIOR).
-  [2] claude-sonnet-4-6     — Balanced speed & capability. Best for most tasks (JUNIOR / SENIOR).
-  [3] claude-opus-4-6       — Most powerful. Best for complex design or high-risk changes (ARCHITECT).
-
-Enter 1, 2, or 3 — or press Enter to use the recommended default.
-```
-
-**Recommended defaults by tier:**
-| Tier      | Default Model         |
-|-----------|-----------------------|
-| JUNIOR    | claude-haiku-4-5      |
-| SENIOR    | claude-sonnet-4-6     |
-| ARCHITECT | claude-opus-4-6       |
-
-Wait for the user's selection (or apply the default if they skip) before proceeding.
-
----
-
-## Step 4: Delegation
+## Step 3: Delegation
 
 Spawn an Agent using the selected model and the appropriate persona prompt:
 
